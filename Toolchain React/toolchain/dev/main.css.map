@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/styles/App.css", "../../src/index.css"],
+  "sourcesContent": [".container {\r\n    background-color: mediumpurple;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n", "* {\r\n    background-color: grey;\r\n}"],
+  "mappings": "AAAA,WACI,yBACA,aACA,uBACA,mBCJJ,EACI",
+  "names": []
+}
