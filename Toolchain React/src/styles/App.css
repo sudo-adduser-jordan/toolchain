@@ -1,5 +1,33 @@
 .container {
     background-color: mediumpurple;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    /* background-color: green; */
+    /* width: 25%; */
+    /* height: 25%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.add {
+    font-size: xx-large;
+    font-weight: 900;
+    margin: 1rem;
+}
+
+.image {
+    /* background-color: red; */
+    width: 10rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;

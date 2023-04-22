@@ -1,11 +1,14 @@
 import esBuild from "esbuild";
 
-
-
 // bundle react app
 const ctx = await esBuild.context({
-    entryPoints: ['./src/index.html', './src/main.tsx'],
-    loader: {'.html': 'copy'},
+    entryPoints: ['./src/index.html', './src/react.ico', './src/main.tsx'],
+    loader: {
+        '.html': 'copy',
+        '.ico': 'copy',
+        '.png': 'file',
+        '.svg': 'file',
+    },
     bundle: true,
     minify: true,
     sourcemap: true,
@@ -17,12 +20,12 @@ const ctx = await esBuild.context({
     logLevel: "info"
 });
 
-// serve app to port @ host
+// serve app to port @ localhost
 await ctx.serve({ 
     servedir: "./toolchain/dev/", 
     port: 8080 
 })
-.then(console.log("Server running...\n http://localhost:8080"))
+.then(console.log("Server running... \n \n http://localhost:8080"))
 .catch("Server error.");
 
 // watch src dir for changes

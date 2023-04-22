@@ -3,8 +3,13 @@ import fs from 'node:fs'
 
 // build config
 let result = await esbuild.build({
-    entryPoints: ['./src/index.html', './src/main.tsx'],
-    loader: {'.html': 'copy'},
+    entryPoints: ['./src/index.html', './src/react.ico', './src/main.tsx'],
+    loader: {
+        '.html': 'copy',
+        '.ico': 'copy',
+        '.png': 'file',
+        '.svg': 'file',
+    },
     bundle: true,
     sourcemap: false,
     minify: true,
@@ -17,8 +22,7 @@ let result = await esbuild.build({
 // write meta file - this can be used at https://esbuild.github.io/analyze/
 fs.writeFileSync('./toolchain/build/meta.json', JSON.stringify(result.metafile))
 
-
-// print meta file results
+/* print meta file results */
 
 // console.log(result)
 
