@@ -15,7 +15,7 @@ let result = await esbuild.build({
     minify: true,
     target: ['chrome58', 'firefox57', 'safari11', 'edge16'],
     metafile: true,
-    outdir: './toolchain/build/',
+    outdir: './toolchain/build/dist/',
     logLevel: "info"
 })
 

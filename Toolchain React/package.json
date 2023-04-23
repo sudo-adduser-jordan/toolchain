@@ -5,15 +5,12 @@
   "scripts": {
     "dev": "node config/esbuild.dev.mjs",
     "build": "node config/esbuild.build.mjs",
-    "analyze": "node config/esbuild.analyze.mjs",
-    "copy" : "esbuild ./src/index.html --loader:.html=copy --outdir=./toolchain/dev/"
+    "analyze": "node config/esbuild.analyze.mjs"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "clean": "^4.0.2",
     "esbuild": "^0.17.17",
-    "express": "^4.18.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
