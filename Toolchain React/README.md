@@ -13,7 +13,9 @@ Create Esbuild React
 
 ## Background
 
-A react starter app utilizing esbuild as the build tool and development server. The idea that everything must be done in javascript is absurd when there are much more performant tools that can be used. Esbuild is built with GO, a programing language built by the some of the same creators of Google's V8 engine, Unix, and C. This allows for buid and serve times that are much faster than the common javascript tools used for these purposes.
+A react starter app utilizing esbuild as the build tool and development server. The idea that everything must be done in javascript is absurd when there are much more performant tools that can be used. Esbuild is built with GO, a programing language built by the some of the same creators of Google's V8 engine, Unix, and C. This allows for build and serve times that are much faster than the common javascript tools used for these purposes.
+
+Currently this application is configured to build a basic React application. More features will be added in the future.
 
 ## Install
 
