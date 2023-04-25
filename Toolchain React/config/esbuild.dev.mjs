@@ -23,7 +23,7 @@ const ctx = await esBuild.context({
 // serve app to port @ localhost
 await ctx.serve({ 
     servedir: "./toolchain/dev/", 
-    port: 8080 
+    port: 3000 
 })
 .then(console.log("Server running... \n \n http://localhost:8080"))
 .catch("Server error.");
