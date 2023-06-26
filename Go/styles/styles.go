@@ -11,14 +11,18 @@ func PurpleLabel(s string) lipgloss.Style {
 	var style = lipgloss.NewStyle().
 		SetString(s).
 		Bold(true).
-		Background(lipgloss.Color("5"))
+		Background(lipgloss.Color("5")).
+		Foreground(lipgloss.Color("7"))
+		// Foreground(lipgloss.Color("0"))
 	return style
 }
 func BlueLabel(s string) lipgloss.Style {
 	var style = lipgloss.NewStyle().
 		SetString(s).
 		Bold(true).
-		Background(lipgloss.Color("6"))
+		Background(lipgloss.Color("6")).
+		Foreground(lipgloss.Color("7"))
+		// Foreground(lipgloss.Color("0"))
 	return style
 }
 func RedLabel(s string) lipgloss.Style {
