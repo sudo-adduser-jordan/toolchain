@@ -25,7 +25,24 @@ func RedLabel(s string) lipgloss.Style {
 	var style = lipgloss.NewStyle().
 		SetString(s).
 		Bold(true).
-		Background(lipgloss.Color("1"))
+		Background(lipgloss.Color("1")).
+		Foreground(lipgloss.Color("0"))
+	return style
+}
+func YellowLabel(s string) lipgloss.Style {
+	var style = lipgloss.NewStyle().
+		SetString(s).
+		Bold(true).
+		Background(lipgloss.Color("3")).
+		Foreground(lipgloss.Color("0"))
+	return style
+}
+func GreenLabel(s string) lipgloss.Style {
+	var style = lipgloss.NewStyle().
+		SetString(s).
+		Bold(true).
+		Background(lipgloss.Color("2")).
+		Foreground(lipgloss.Color("0"))
 	return style
 }
 
@@ -49,6 +66,20 @@ func BlueText(s string) lipgloss.Style {
 		SetString(s).
 		Bold(true).
 		Foreground(lipgloss.Color("6"))
+	return style
+}
+func YellowText(s string) lipgloss.Style {
+	var style = lipgloss.NewStyle().
+		SetString(s).
+		Bold(true).
+		Foreground(lipgloss.Color("3"))
+	return style
+}
+func PurpleText(s string) lipgloss.Style {
+	var style = lipgloss.NewStyle().
+		SetString(s).
+		Bold(true).
+		Foreground(lipgloss.Color("5"))
 	return style
 }
 
