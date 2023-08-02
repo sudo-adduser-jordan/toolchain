@@ -22,7 +22,11 @@ Currently this application is configured to build a basic React application. Mor
 Download zip or run
 
 ```
-git clone https://github.com/sudo-adduser-jordan/Toolchain/tree/main/Toolchain%20React
+git clone https://github.com/sudo-adduser-jordan/Toolchain
+```
+
+```
+cd react
 ```
 
 ## Usage
@@ -31,7 +35,11 @@ git clone https://github.com/sudo-adduser-jordan/Toolchain/tree/main/Toolchain%2
 
 First, run the development server:
 
-```bash
+```
+npm install
+```
+
+```
 npm run dev
 ```
 
