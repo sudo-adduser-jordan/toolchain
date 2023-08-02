@@ -25,15 +25,15 @@ Download zip or run
 git clone https://github.com/sudo-adduser-jordan/Toolchain
 ```
 
-```
-cd react
-```
-
 ## Usage
 
 ### Getting Started
 
 First, run the development server:
+
+```
+cd react
+```
 
 ```
 npm install
