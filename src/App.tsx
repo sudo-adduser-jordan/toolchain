@@ -7,7 +7,7 @@ export default function App() {
       <div className="container">
         <div className="title">Toolchain</div>
         <div className="add">+</div>
-        <img className="image" src={logo} />
+        <img className="image" src={logo} alt="" />
       </div>
     </>
   );
