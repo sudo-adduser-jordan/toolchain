@@ -1,4 +1,4 @@
-# Toolchain + React
+# Toolchain
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?)](https://github.com/RichardLitt/standard-readme)
 
@@ -13,7 +13,9 @@ Create Esbuild React
 
 ## Background
 
-A react starter app utilizing esbuild as the build tool and development server. The idea that everything must be done in javascript is absurd when there are much more performant tools that can be used. Esbuild is built with GO, a programing language built by the some of the same creators of Google's V8 engine, Unix, and C. This allows for build and serve times that are much faster than the common javascript tools used for these purposes.
+A sinple page react application utilizing esbuild as the build tool and development server.
+
+Configured with Typescript, EsLint, and Prettier.
 
 Currently this application is configured to build a basic React application. More features will be added in the future.
 
@@ -30,6 +32,10 @@ git clone https://github.com/sudo-adduser-jordan/Toolchain
 ### Getting Started
 
 First, run the development server:
+
+```
+cd Toolchain
+```
 
 ```
 npm install
