@@ -1,15 +1,15 @@
 {
   "name": "toolchain",
-  "version": "0.0.1",
   "description": "",
+  "version": "0.0.1",
+  "author": "@sudo-adduser-jordan",
+  "license": "",
   "scripts": {
     "lint": "npx eslint ./src",
     "dev": "node config/esbuild.dev.mjs",
     "build": "node config/esbuild.build.mjs",
     "analyze": "node config/esbuild.analyze.mjs"
   },
-  "author": "sudo-adduser-jordan",
-  "license": "ISC",
   "dependencies": {
     "esbuild": "^0.17.17",
     "react": "^18.2.0",

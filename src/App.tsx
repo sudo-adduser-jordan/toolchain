@@ -1,4 +1,4 @@
-import "./styles/App.css";
+import "./styles/app.css";
 import logo from "./assets/react.png";
 
 export default function App() {
