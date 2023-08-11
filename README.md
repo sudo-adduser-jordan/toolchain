@@ -34,6 +34,10 @@ git clone https://github.com/sudo-adduser-jordan/Toolchain
 First, run the development server:
 
 ```
+cd Toolchain
+```
+
+```
 npm install
 ```
 
