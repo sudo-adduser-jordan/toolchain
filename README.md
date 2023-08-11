@@ -11,7 +11,7 @@
 
 ## Background
 
-A sinple page react application utilizing esbuild as the build tool and development server.
+A single page react application utilizing esbuild as the build tool and development server.
 
 Configured with Typescript, EsLint, and Prettier.
 
