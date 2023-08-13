@@ -32,15 +32,15 @@
   align-items: center;
 }
 
+.title {
+  color: black;
+  font-size: 4rem;
+}
+
 .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.title {
-  color: black;
-  font-size: 4rem;
 }
 
 img {
