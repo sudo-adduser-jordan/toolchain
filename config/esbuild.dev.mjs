@@ -1,4 +1,5 @@
 import esBuild from "esbuild";
+import fs from "node:fs";
 
 // bundle react app
 const ctx = await esBuild.context({

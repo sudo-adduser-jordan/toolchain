@@ -1,6 +1,5 @@
 // Vercel Deploy Build Config
-
-import * as esbuild from "esbuild";
+import esbuild from "esbuild";
 import fs from "node:fs";
 
 // build config
