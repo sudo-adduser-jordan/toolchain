@@ -8,7 +8,7 @@
     "lint": "npx eslint ./src",
     "type": "npx tsc --noEmit",
     "dev": "node config/esbuild.dev.mjs",
-    "build": "node config/esbuild.build.mjs",
+    "build": "node config/esbuild.vercel.mjs",
     "analyze": "node config/esbuild.analyze.mjs"
   },
   "dependencies": {
