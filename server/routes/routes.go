@@ -8,7 +8,11 @@ import (
 )
 
 func SetupRoutes() {
-	http.Handle("/", http.FileServer(http.Dir("../public")))
+	const local = "../public"
+	const docker = "/app/public"
+
+	// http.Handle("/", http.FileServer(http.Dir(docker)))
+	http.Handle("/", http.FileServer(http.Dir(local)))
 
 	fmt.Println()
 	fmt.Print(styles.GreenText("=> http server started on "))
