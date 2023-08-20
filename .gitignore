@@ -1,4 +1,4 @@
 node_modules
 toolchain
 public
-.exe
+./server/main.exe
