@@ -47,4 +47,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `App.tsx`.
 
-This tool does not use HMR and does a full reload on save. This is beneficial as HMR may require a full reload anyway depending on what has been edited. Since esbuild is programed in GO the speed of your reloads will not be any slower than a javascript HMR server.
+This tool does not use HMR and does a full reload on save.
