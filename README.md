@@ -2,13 +2,6 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?)](https://github.com/RichardLitt/standard-readme)
 
-## Table of Contents
-
-- [Background](#background)
-- [Install](#install)
-- [Usage](#usage)
-
-
 ## Background
 
 A single page react application utilizing esbuild as the build tool and development server.
@@ -17,17 +10,12 @@ Configured with Typescript, EsLint, and Prettier.
 
 Currently this application is configured to build a basic React application. More features will be added in the future.
 
-## Install
-
-Download zip or run
-
-```
-git clone https://github.com/sudo-adduser-jordan/Toolchain
-```
 
 ## Usage
 
-### Getting Started
+```
+git clone https://github.com/sudo-adduser-jordan/toolchain
+```
 
 First, run the development server:
 
